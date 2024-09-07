@@ -1,0 +1,15 @@
+ 1028  git add README.md
+ 1029  git commit -m "Added README.md to listInstructions"
+ 1030  git remote add origin git@github.com:vinay-ram1999/IS601-homework1.git
+ 1031  git remote show
+ 1032  git remote show origin
+ 1033  git push origin master
+ 1034  git push origin listInstructions
+ 1035  git checkout master
+ 1036  git merge listInstructions
+ 1037  git push origin master
+ 1038  vi README.md
+ 1039  git add README.md
+ 1040  git commit -m "Modified README.md"
+ 1041  touch cmd_history.txt
+ 1042  history > cmd_history.txt
